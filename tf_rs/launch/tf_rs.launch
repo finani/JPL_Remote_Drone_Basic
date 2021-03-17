@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="tf_rs_node" type="tf_rs_node" output="screen" pkg="tf_rs">
+    </node>
+</launch>
