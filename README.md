@@ -2,6 +2,8 @@
 - DJI F550
 - Nvidia Jetson NX
 - Intel Realsense T265
+- OptiTrack (Motion Capture System)
+  - Use ```tf_mocap``` instead of ```tf_rs```
  
 
 ## Topic Flow
