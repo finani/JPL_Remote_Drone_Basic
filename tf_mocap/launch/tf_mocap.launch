@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="tf_mocap_node" type="tf_mocap_node" output="screen" pkg="tf_mocap">
+    </node>
+</launch>
