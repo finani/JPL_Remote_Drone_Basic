@@ -1,0 +1,6 @@
+[submodule "jpl_remote_drone"]
+	path = jpl_remote_drone
+	url = http://github.com/finani/offboard_drone
+[submodule "offboard_drone"]
+	path = offboard_drone
+	url = http://github.com/finani/offboard_drone
