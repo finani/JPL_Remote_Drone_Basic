@@ -1,6 +1,6 @@
 # JPL Remote Drone Setup (using PX4, T265)
 - DJI F550
-- Nvidia Jetson NX
+- Nvidia Jetson Xavier NX
 - Intel Realsense T265
 - OptiTrack (Motion Capture System)
   - Use ```tf_mocap``` instead of ```tf_rs```
