@@ -1,4 +1,4 @@
-# JPL Remote Drone Basic Setup (using PX4, T265)
+# JPL Remote Drone Setup (using PX4, T265)
 - DJI F550
 - Nvidia Jetson NX
 - Intel Realsense T265
