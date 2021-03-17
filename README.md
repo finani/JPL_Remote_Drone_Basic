@@ -9,7 +9,7 @@
 ## Topic Flow
 1. Change rostopic from <T265> ```/camera/odom/sample``` to ```/mavros/vision_pose/pose```
     - ```roslaunch tf_rs tf_rs.launch```
-3. Estimate precise local position ```/mavros/local_position/pose``` in PX4
+2. Estimate precise local position ```/mavros/local_position/pose``` in PX4
     - You can also use ```/mavros/local_position/odom```
 
 
@@ -55,16 +55,16 @@
 
 
 ## Preflight Check
-1. T265 odometry(```/camera/odom/sample```)
+1. T265 odometry (```/camera/odom/sample```)
     - Check the value and the direction
     - It is required only once at the first time
-2. Mavros local position(```/mavros/local_position/pose``` or ```/mavros/local_position/odom```)
+2. Mavros local position (```/mavros/local_position/pose``` or ```/mavros/local_position/odom```)
     - Check the value and the direction
     - It is required only once at the first time
 3. Mavros state from ```offboard.launch```
     - Check the data (connected, armed, guided, flight_mode, cur_position)
     - It is required every time
 4. Command output from ```offboard.launch```
-    - Check the command(usually velocity) output
+    - Check the command (usually velocity) output
     - It is required when running the new algorithm
 5. Fly safely~
