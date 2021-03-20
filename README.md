@@ -15,7 +15,7 @@
 
 ## To Do
 1. Set symbolic link (optional)
-    - It will change the tty name from ```/dev/ttyUSB0``` to ```/dev/ttyPixhawk```
+    - It will link ```/dev/ttyUSB0``` to ```/dev/ttyPixhawk```
     - https://github.com/finani/WeeBee/tree/master/tty_symlink
         - You can check tty using ```ls /dev/tty*```
         - The tty name depends on the connection order. If you connect an Arduino first and then PX4, the Arduino is set as ttyUSB0 and the PX4 is set as ttyUSB1. The tty name changes frequently because you can not connect the devices sequentially each time. So, you need to set up a symbolic link for a stable system. (Many devices use FTDI chip and they use a serial communication.)
